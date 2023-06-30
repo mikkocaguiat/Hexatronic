@@ -1,0 +1,72 @@
+﻿Planning area,Easement,Cabinet_symbol_points,Chamber,Event node,Route,Distribution node,SurfaceType,SurfaceTexture,Owner,InstallMethod,ValueMethod
+"FDP - Polygon, map","Wayleave - Hard lock - Polygon, map","Device cabinet - Symbol, map","Joint chamber - Symbol, map","Drop-off point - Symbol, map","Route, aerial - Line, map","Address point - Symbol, map",Verge,Bitmac-Tarmac,Vx Fiber,Narrow trenching,ANGLE
+"FDA - Polygon, map","Wayleave - Soft lock - Polygon, map","Outdoor cabinet - Symbol, map","Pull chamber - Symbol, map","Drop-off point, shared - Symbol, map","Route, drilled (measured) - Line, map","Prospect node - Symbol, map",Footway,Modular Block Paving,,Open trench,AUTONUMBER
+"FSA - Polygon, map",,"Underground cabinet - Symbol, map",,,"Route, drilled (uncertain location) - Line, map",,Carriageway,ConcreteBrick,,Drilling HDD,CASCADE_ATTRIBUTE
+,,,,,"Route, duct access - Line, map",,Bridge Crossing,Grass / Unmade,,,COPY_FEATURE
+,,,,,"Route, external - Line, map",,Railroad Crossing,,,,COPY_LINKED_RECORD
+,,,,,"Route, ground (measured) - Line, map",,,,,,CREATE_LINKED_RECORD
+,,,,,"Route, ground (uncertain location) - Line, map",,,,,,CREATE_PERP_LINE
+,,,,,,,,,,,CREATE_PERP_LINE_TO_LINE
+,,,,,,,,,,,CURRENT_USER
+,,,,,,,,,,,EDGE_STATS
+,,,,,,,,,,,EXPRESSION
+,,,,,,,,,,,FEATURE_STATS
+,,,,,,,,,,,FIELD
+,,,,,,,,,,,FIELD_TRIGGER
+,,,,,,,,,,,FROM_EDGE_FIELD
+,,,,,,,,,,,FROM_EDGE_MULTI_FIELD_INTERSECT
+,,,,,,,,,,,FROM_EDGE_STATS
+,,,,,,,,,,,FROM_JUNCTION_FIELD
+,,,,,,,,,,,GENERATE_ID
+,,,,,,,,,,,GENERATE_ID_BY_INTERSECT
+,,,,,,,,,,,GET_ADDRESS_FROM_CENTERLINE
+,,,,,,,,,,,GET_ADDRESS_USING_ARCGIS_SERVICE
+,,,,,,,,,,,GET_ADDRESS_USING_GEOCODER
+,,,,,,,,,,,GUID
+,,,,,,,,,,,INTERSECT_STATS
+,,,,,,,,,,,INTERSECTING_BOOLEAN
+,,,,,,,,,,,INTERSECTING_COUNT
+,,,,,,,,,,,INTERSECTING EDGE
+,,,,,,,,,,,INTERSECTING_FEATURE
+,,,,,,,,,,,INTERSECTING_FEATURE_DISTANCE
+,,,,,,,,,,,INTERSECTING_LAYER_DETAILS
+,,,,,,,,,,,INTERSECTING_RASTER
+,,,,,,,,,,,JUNCTION_ROTATION
+,,,,,,,,,,,LAST_VALUE
+,,,,,,,,,,,LATITUDE
+,,,,,,,,,,,LENGTH
+,,,,,,,,,,,LINK_TABLE_ASSET
+,,,,,,,,,,,LONGITUDE
+,,,,,,,,,,,MAP_INFO
+,,,,,,,,,,,MINIMUM_LENGTH
+,,,,,,,,,,,MULTI_FIELD_INTERSECT
+,,,,,,,,,,,NEAREST FEATURE
+,,,,,,,,,,,NEAREST_FEATURE_ATTRIBUTES
+,,,,,,,,,,,OFFSET
+,,,,,,,,,,,PREVIOUS_VALUE
+,,,,,,,,,,,PROMPT
+,,,,,,,,,,,SET_MEASURES
+,,,,,,,,,,,SIDE
+,,,,,,,,,,,SPLIT_INTERSECTING_FEATURE
+,,,,,,,,,,,TIMESTAMP
+,,,,,,,,,,,TO_EDGE_FIELD
+,,,,,,,,,,,TO_EDGE_MULTI_FIELD_INTERSECT
+,,,,,,,,,,,TO_EDGE_STATS
+,,,,,,,,,,,TO_JUNCTION_FIELD
+,,,,,,,,,,,TRIGGER_AAEVENT_FROM_EDGE
+,,,,,,,,,,,TRIGGER_AAEVENT_FROM_JUNCTION
+,,,,,,,,,,,TRIGGER AAEVENT_INTERSECTING_FEATURE
+,,,,,,,,,,,TRIGGER AAEVENT_TO_EDGE
+,,,,,,,,,,,TRIGGER AAEVENT_TO_JUNCTION
+,,,,,,,,,,,UPDATE_FROM_EDGE_FIELD
+,,,,,,,,,,,UPDATE_FROM_JUNCTION_FIELD
+,,,,,,,,,,,UPDATE_INTERSECTING_FEATURE
+,,,,,,,,,,,UPDATE_LINKED_RECORD
+,,,,,,,,,,,UPDATE_TO_EDGE_FIELD
+,,,,,,,,,,,UPDATE_TO_JUNCTION_FIELD
+,,,,,,,,,,,VALIDATE_ATTRIBUTE_LOOKUP
+,,,,,,,,,,,VALIDATE_ATTRIBUTES
+,,,,,,,,,,,VALIDATE CONNECTIVITY
+,,,,,,,,,,,VALIDATE_DOMAIN
+,,,,,,,,,,,X_COORDINATE
+,,,,,,,,,,,Y_COORDINATE
